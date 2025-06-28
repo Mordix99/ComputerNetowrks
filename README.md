@@ -53,10 +53,10 @@
 
 <details>
 <summary>💡 <strong>Notatka: Proces DHCP (DORA)</strong></summary>
-1. 🛰️ **DHCPDISCOVER** – klient wysyła rozgłoszeniowo zapytanie o dostępne serwery DHCP  
-2. 📦 **DHCPOFFER** – serwer DHCP odpowiada oferując konfigurację (adres IP i inne parametry)  
-3. 🙋 **DHCPREQUEST** – klient wybiera jedną ofertę i prosi o przydzielenie adresu  
-4. ✅ **DHCPACK** – serwer potwierdza przydzielenie i kończy proces
+1. 🛰️ <strong>DHCPDISCOVER</strong> – klient wysyła rozgłoszeniowo zapytanie o dostępne serwery DHCP<br>
+2. 📦 <strong>DHCPOFFER</strong> – serwer DHCP odpowiada oferując konfigurację (adres IP i inne parametry)<br>
+3. 🙋 <strong>DHCPREQUEST</strong> – klient wybiera jedną ofertę i prosi o przydzielenie adresu<br>
+4. ✅ <strong>DHCPACK</strong> – serwer potwierdza przydzielenie i kończy proces<br><br>
 </details>
 
 
