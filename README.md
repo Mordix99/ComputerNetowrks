@@ -167,7 +167,7 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 
 ## 20. Które zdanie opisuje routing statyczny?
 
-- [ ] a) Administrator ręcznie wstawia trasy do tablicy  
+- [x] a) Administrator ręcznie wstawia trasy do tablicy  
 - [ ] b) Trasy są zdefiniowane w statycznej tablicy RARP  
 - [ ] c) Trasy są automatycznie dodawane  
 - [ ] d) Trasy pobierane są z serwera nazw  
