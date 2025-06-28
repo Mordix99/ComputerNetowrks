@@ -276,7 +276,7 @@
 
 ## 38. Adres `112.10.3.4` należy do klasy:
 
-- [ ] a) A  
+- [x] a) A  
 - [ ] b) B  
 - [ ] c) C  
 - [ ] d) D  
