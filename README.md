@@ -52,13 +52,13 @@
 - [x] d) DHCPDISCOVER wysłany przez hosta
 
 <details>
-<summary>💡 Notatka</summary>
-Proces DHCP rozpoczyna się od komunikatu `DHCPDISCOVER` wysłanego przez hosta (klienta) w celu znalezienia dostępnych serwerów DHCP. Dopiero potem serwer odpowiada `DHCPOFFER`. Kolejność komunikatów w procesie DORA:  
-1. **D**iscover (klient)  
-2. **O**ffer (serwer)  
-3. **R**equest (klient)  
-4. **A**cknowledge (serwer)
+<summary>💡 <strong>Notatka: Proces DHCP (DORA)</strong></summary>
+1. 🛰️ **DHCPDISCOVER** – klient wysyła rozgłoszeniowo zapytanie o dostępne serwery DHCP  
+2. 📦 **DHCPOFFER** – serwer DHCP odpowiada oferując konfigurację (adres IP i inne parametry)  
+3. 🙋 **DHCPREQUEST** – klient wybiera jedną ofertę i prosi o przydzielenie adresu  
+4. ✅ **DHCPACK** – serwer potwierdza przydzielenie i kończy proces
 </details>
+
 
 ## 8. Adres `225.225.0.0` to:
 
