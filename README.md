@@ -25,9 +25,9 @@
 
 ## 4. Adresami prywatnymi są:
 
-- [ ] a) 10.10.10.10  
+- [x] a) 10.10.10.10  
 - [ ] b) 172.168.10.1  
-- [ ] c) 192.168.0.1  
+- [x] c) 192.168.0.1  
 - [ ] d) 192.10.10.1  
 
 ## 5. Które działania realizują protokoły routingu?
