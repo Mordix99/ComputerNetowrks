@@ -62,7 +62,7 @@
 
 ## 8. Adres `225.225.0.0` to:
 
-- [ ] a) Grupa hostów  
+- [x] a) Grupa hostów  
 - [ ] b) Pojedyncze urządzenie  
 - [ ] c) Podsieć  
 - [ ] d) Sieć  
