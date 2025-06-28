@@ -1,5 +1,4 @@
 # 📘 Test z Sieci Komputerowych
-
 ---
 
 ## 1. Komunikaty ICMP używane do przekazywania informacji o pomyślnym wykonaniu polecenia ping:
@@ -287,3 +286,192 @@
 - [ ] b) 255.255.255.224  
 - [ ] c) 255.255.255.248  
 - [ ] d) 255.255.255.192  
+
+## 41. Co oznacza skrót DTE?
+- [ ] a) Klasą urządzeń, do której można zaliczyć switch  
+- [ ] b) Rodzaj kabla do przyłączenia konsol  
+- [ ] c) Rodzaj kabli wykorzystywanych w sieciach Ethernet  
+- [ ] d) Klasą urządzeń, do której można zaliczyć router  
+
+## 42. Zadaniem warstwy 1 modelu OSI/ISO jest:
+- [ ] a) Adresacja fizyczna  
+- [ ] b) Ramkowanie  
+- [ ] c) Kompresja danych  
+- [ ] d) Kodowanie strumienia danych do postaci odpowiedniej dla medium  
+- [ ] e) Zapewnienie dostępu do medium  
+
+## 43. Poprawnym adresem grupowym (multicastowym) Ethernet jest:
+- [ ] a) 01:00:5e:30:a3:d0  
+- [ ] b) f0:aa:0d:23:10:01  
+- [ ] c) 0b:0b:09:01:03:02  
+- [ ] d) 02:00:5e:92:ff:c1  
+- [ ] e) 10:2a:3c:ff:ff:ff  
+
+## 44. W protokołach routingu dynamicznego metryka używana jest do określania:
+- [ ] a) Odległości z sieci źródłowej do sieci docelowej pakietu  
+- [ ] b) Opóźnienia pakietów na interfejsach wyjściowych  
+- [ ] c) Liczby przeskoków z sieci źródłowej do sieci docelowej  
+- [ ] d) Odległości do sieci docelowej pakietu  
+
+## 45. Dwie stacje w różnych sieciach połączone przez jeden router:
+- [ ] a) Na routerze konieczne jest dodanie pozycji routingu statycznego lub działanie protokołu routowania  
+- [ ] b) Obydwie stacje muszą posiadać jednakową maskę  
+- [ ] c) Każda stacja musi mieć ustawiony adres IP bramy  
+
+## 46. Kontrola przepływu w TCP polega m.in. na tym, że:
+- [ ] a) Odbiorca przesyła do nadawcy informacje o pakietach, które do niego dotarły  
+- [ ] b) Odbiorca kontroluje ilość danych, które może odebrać  
+- [ ] c) Odbiorca przesyła do nadawcy informacje o pakietach, które do niego **nie** dotarły  
+- [ ] d) Nadawca kontroluje ilość danych, które może nadać  
+
+## 47. W protokole UDP:
+- [ ] a) Przesyłanie datagramów jest niezawodne  
+- [ ] b) Odbiorca potwierdza otrzymanie datagramów  
+- [ ] c) Nie można fragmentować datagramów  
+- [ ] d) Przesyłanie możliwe tylko w konfiguracji punkt–wielopunkt (multicast)  
+
+## 48. Jaki jest cel uzgadniania trójetapowego (3-way handshake) w TCP?
+- [ ] a) Weryfikowanie adresów IP nadawcy i odbiorcy  
+- [ ] b) Określenie liczby bajtów w każdym segmencie  
+- [ ] c) Synchronizacja numerów sekwencji  
+- [ ] d) Dostosowanie etapów szyfrowania pakietów  
+
+## 49. Adres `195.225.0.0` jest adresem:
+- [ ] a) Sieci  
+- [ ] b) Podsieci  
+- [ ] c) Grupy hostów  
+- [ ] d) Pojedynczego urządzenia  
+
+## 50. Mechanizm split horizon a zliczanie do nieskończoności:
+- [ ] a) Może nadal wystąpić, jego zastosowanie zmniejsza tylko ruch w sieci  
+- [ ] b) Może nadal wystąpić, ale rzadziej  
+- [ ] c) Nie może wystąpić  
+
+## 51. Aby hosty `197.11.199.41` i `197.11.199.27` były w tej samej podsieci, maska powinna wynosić:
+- [ ] a) 255.255.255.248  
+- [ ] b) 255.255.255.224  
+- [ ] c) 255.255.255.240  
+- [ ] d) 255.255.255.192 
+
+## 52. Adres `192.10.13.42` należy do klasy adresów:
+- [ ] a) A  
+- [ ] b) B  
+- [ ] c) C  
+- [ ] d) D  
+
+## 53. Jakie mechanizmy umożliwiają komunikację pomiędzy przełącznicami (z włączonymi sieciami VLAN)?
+- [ ] a) Synchronizacja ramek  
+- [ ] b) Tagowanie ramek  
+- [ ] c) FCS  
+- [ ] d) Fragmentacja ramek  
+- [ ] e) TDM (Time Division Multiplexing)  
+
+## 54. Dla adresu `220.1.1.133` z maską `255.255.255.192`:
+- [ ] a) Adres podsieci to 220.1.1.128  
+- [ ] b) Adres rozgłoszeniowy to 220.1.255.255  
+- [ ] c) Adres podsieci to 220.1.1.103  
+- [ ] d) Adres rozgłoszeniowy to 220.1.1.255  
+- [ ] e) Adres podsieci to 220.1.1.0  
+
+## 55. Dla adresu `23.194.10.131` z maską `255.255.248.0` adres podsieci to:
+- [ ] a) 23.194.10.0  
+- [ ] b) 23.194.8.0  
+- [ ] c) 23.194.248.0  
+- [ ] d) 23.194.0.0  
+
+## 56. Czy adresy IP `100.22.6.2` oraz `100.32.6.3` należą do tej samej podsieci, jeśli do identyfikacji podsieci przeznaczono 8 bitów?
+- [ ] a) Tak  
+- [ ] b) Nie da się jednoznacznie odpowiedzieć  
+- [ ] c) Nie  
+
+## 57. Tablica ARP zawiera:
+- [ ] a) Adres IP bramy domyślnej  
+- [ ] b) Adres IP hosta źródłowego  
+- [ ] c) Typ wpisu (statyczny/dynamiczny)  
+- [ ] d) Numer portu, na którym jest podłączony obcy host  
+- [ ] e) Adres MAC hosta obcego  
+
+## 58. Które pole występuje zarówno w nagłówku segmentu UDP, jak i TCP?
+- [ ] a) Numer potwierdzenia  
+- [ ] b) Numer portu  
+- [ ] c) Rozmiar okna  
+- [ ] d) Numer kolejny  
+
+## 59. Skąd IP wie, gdzie dostarczyć pakiet o wskazanym adresie IP?
+- [ ] a) Wszystkie powyższe odpowiedzi są poprawne  
+- [ ] b) Do określenia trasy pakietu, IP korzysta z protokołu sterującego ICMP  
+- [ ] c) Żadna z powyższych odpowiedzi nie jest poprawna  
+- [ ] d) W datagramie IP zapisany jest adres routera następnego przejścia  
+- [ ] e) W tablicy routingu zapisana jest trasa, którą ma przebiegać pakiet  
+
+## 60. Datagram IP:
+- [ ] a) Wskazuje trasę przesłania go poprzez sieć  
+- [ ] b) Pozwala uzyskać adres innego hosta (np. odbiorcy)  
+- [ ] c) Posiada sumę kontrolną całego pakietu  
+- [ ] d) Ma zmienną długość  
+- [ ] e) Nie może być wysłany multicastowo  
+
+## 61. Dla adresu `194.0.10.141` z maską `255.255.255.192` prawdziwe są stwierdzenia:
+- [ ] a) W podsieci jest 62 dostępne adresy użyteczne  
+- [ ] b) Na numer hosta przeznaczone jest 6 bitów  
+- [ ] c) W podsieci jest 64 dostępne adresy użyteczne  
+- [ ] d) W podsieci jest 30 dostępnych adresów użytecznych  
+- [ ] e) Na numer hosta przeznaczonych jest 3 bity  
+
+## 62. Co się stanie, gdy datagram IP ma rozmiar większy niż MTU sieci, do której jest wysyłany?
+- [ ] a) Pakiet zostanie odrzucony "po cichu"  
+- [ ] b) Pakiet zostanie odrzucony i wygenerowany zostanie komunikat ICMP sieć nieosiągalna  
+- [ ] c) Pakiet zostanie odrzucony i wygenerowany zostanie komunikat ICMP stłumienie źródła  
+- [ ] d) Pakiet zostanie podzielony na fragmenty i wysłany  
+
+## 63. Który z wymienionych protokołów jest protokołem bezpołączeniowym?
+- [ ] a) UDP  
+- [ ] b) TCP  
+- [ ] c) ARP  
+- [ ] d) IP  
+
+## 64. Połączono bezpośrednio ze sobą komputery:  
+Host A - `120.0.0.10/22`, Host B - `120.10.0.0/12`. Które stwierdzenie jest prawdziwe?
+- [ ] a) Komputer B NIE wyśle poprawnie pakietu do komputera A  
+- [ ] b) Komputer B poprawnie wyśle pakiet do komputera A  
+- [ ] c) Komputer A NIE wyśle poprawnie pakietu do komputera B  
+- [ ] d) Komputer A poprawnie wyśle pakiet do komputera B  
+
+## 65. Jakie są podstawowe zadania warstwy transportowej w modelu OSI?
+- [ ] a) Połączenia typu end-to-end  
+- [ ] b) Szyfrowanie danych  
+- [ ] c) Wybór ścieżki  
+
+## 66. Adres IP multicast to:
+- [ ] a) Adres klasy D  
+- [ ] b) Pakiety wysyłane na taki adres zawsze przekazywane są przez rutery  
+- [ ] c) Adres klasy E  
+- [ ] d) Adres rozgłoszeniowy do wszystkich urządzeń w sieci  
+- [ ] e) Adres rozgłoszeniowy do grupy urządzeń  
+
+## 67. Dla adresu `191.0.10.1` z maską `255.255.255.224` prawdziwe są stwierdzenia:
+- [ ] a) Na numer hosta przeznaczone jest 5 bitów  
+- [ ] b) W podsieci jest 30 dostępnych adresów użytecznych  
+- [ ] c) Na numer hosta przeznaczonych jest 3 bity  
+- [ ] d) W podsieci jest 32 dostępne adresy użyteczne  
+- [ ] e) W podsieci jest 62 dostępne adresy użyteczne  
+
+## 68. Protokół IP posiada następujące cechy:
+- [ ] a) Przesłanie pakietu poprzedza faza uzgodnienia połączenia  
+- [ ] b) Jest protokołem połączeniowym  
+- [ ] c) Zawiera mechanizmy potwierdzania doręczenia pakietów  
+- [ ] d) Jest protokołem niezawodnym  
+- [ ] e) Zabezpiecza przed krążeniem pakietów w sieci  
+
+## 69. Który protokół jest używany do powiadamiania hosta IP o błędach transmisji?
+- [ ] a) ICMP  
+- [ ] b) RARP  
+- [ ] c) SMTP  
+- [ ] d) IGMP  
+
+## 70. Jakie mechanizmy zapobiegają wyczerpaniu przestrzeni adresowej IPv4?
+- [ ] a) Routing bezklasowy  
+- [ ] b) DHCP  
+- [ ] c) ARP  
+- [ ] d) NAT  
+
