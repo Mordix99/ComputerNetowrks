@@ -11,9 +11,19 @@
 ## 2. Połączono komputery: Host A - `10.0.0.10/22`, Host B - `10.10.0.0/12`. Które stwierdzenie jest prawdziwe?
 
 - [ ] a) Komputer A poprawnie wyśle pakiet do komputera B  
-- [ ] b) Komputer B **nie** wyśle poprawnie pakietu do komputera A  
-- [ ] c) Komputer A **nie** wyśle poprawnie pakietu do komputera B  
-- [ ] d) Komputer B poprawnie wyśle pakiet do komputera A  
+- [x] b) Komputer B **nie** wyśle poprawnie pakietu do komputera A  
+- [x] c) Komputer A **nie** wyśle poprawnie pakietu do komputera B  
+- [ ] d) Komputer B poprawnie wyśle pakiet do komputera A
+
+<details>
+<summary>💡 <strong>Chat podpowiada</strong></summary>
+
+- Komputer **A** (mały zakres: `/22`) widzi komputer **B** (`10.10.0.0`) jako **spoza swojej sieci** – więc **kieruje pakiet przez bramkę (router)**, jeśli jest skonfigurowana.  
+- Komputer **B** (duży zakres: `/12`) widzi komputer **A** (`10.0.0.10`) **jako lokalny adres** i **wysyła pakiet bezpośrednio**, próbując odwołać się do MAC-a A.
+
+❗ **Ale... ruchu ICMP nie ma.**  
+Sprawdzone w Cisco Packet Tracer – **brak odpowiedzi** na `ping`, ponieważ komputer A ignoruje ARP od B (uważa go za host spoza sieci), a B nie korzysta z bramki, bo „widzi” A jako lokalnego.  
+</details>
 
 ## 3. Skąd IP wie, gdzie dostarczyć pakiet o wskazanym adresie IP?
 
