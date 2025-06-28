@@ -3,7 +3,7 @@
 
 ## 1. Komunikaty ICMP używane do przekazywania informacji o pomyślnym wykonaniu polecenia ping:
 
-- [ ] a) Echo Replay  
+- [x] a) Echo Replay  
 - [ ] b) TTL  
 - [ ] c) Source Quench  
 - [ ] d) Information Request  
