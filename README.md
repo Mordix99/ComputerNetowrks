@@ -155,9 +155,15 @@ Sprawdzone w Cisco Packet Tracer – **brak odpowiedzi** na `ping`, ponieważ ko
 
 ## 19. Czy adresy `126.12.5.3` i `126.12.6.3` są w tej samej podsieci, jeśli identyfikacja podsieci to 8 bitów?
 
-- [ ] a) Tak  
+- [x] a) Tak  
 - [ ] b) Nie  
-- [ ] c) Nie da się jednoznacznie odpowiedzieć  
+- [ ] c) Nie da się jednoznacznie odpowiedzieć
+
+<details>
+<summary>💡 Wyjaśnienie</summary>
+Maska /8 to domyślna klasa A (255.0.0.0). Dodając 8 bitów na podsieć, mamy maskę /16 (255.255.0.0).
+Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pierwsze oktety (126.12), więc z maską /16 należą do tej samej podsieci.
+</details>
 
 ## 20. Które zdanie opisuje routing statyczny?
 
