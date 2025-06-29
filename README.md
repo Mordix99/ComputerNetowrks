@@ -132,9 +132,9 @@ Sprawdzone w Cisco Packet Tracer – **brak odpowiedzi** na `ping`, ponieważ ko
 
 ## 16. Dla adresu `172.168.10.4/20` prawdziwe są:
 
-- [ ] a) Na numer podsieci przeznaczone są 4 bity  
+- [x] a) Na numer podsieci przeznaczone są 4 bity  
 - [ ] b) Adres podsieci to `172.168.10.0`  
-- [ ] c) Można stworzyć 16 podsieci  
+- [x] c) Można stworzyć 16 podsieci  
 - [x] d) Maska to `255.255.240.0`  
 - [ ] e) To adres prywatny  
 
