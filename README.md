@@ -492,7 +492,7 @@ Host A - `120.0.0.10/22`, Host B - `120.10.0.0/12`. Które stwierdzenie jest pra
 - [x] a) ICMP  
 - [ ] b) RARP  
 - [ ] c) SMTP  
-- [?] d) IGMP  
+- [ ] d) IGMP  
 
 ## 70. Jakie mechanizmy zapobiegają wyczerpaniu przestrzeni adresowej IPv4?
 - [ ] a) Routing bezklasowy  
