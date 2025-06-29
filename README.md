@@ -336,7 +336,7 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 - [ ] a) Odległości z sieci źródłowej do sieci docelowej pakietu  
 - [ ] b) Opóźnienia pakietów na interfejsach wyjściowych  
 - [ ] c) Liczby przeskoków z sieci źródłowej do sieci docelowej  
-- [ ] d) Odległości do sieci docelowej pakietu  
+- [x] d) Odległości do sieci docelowej pakietu  
 
 ## 45. Dwie stacje w różnych sieciach połączone przez jeden router:
 - [ ] a) Na routerze konieczne jest dodanie pozycji routingu statycznego lub działanie protokołu routowania  
@@ -345,24 +345,25 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 
 ## 46. Kontrola przepływu w TCP polega m.in. na tym, że:
 - [ ] a) Odbiorca przesyła do nadawcy informacje o pakietach, które do niego dotarły  
-- [ ] b) Odbiorca kontroluje ilość danych, które może odebrać  
+- [x] b) Odbiorca kontroluje ilość danych, które może odebrać  
 - [ ] c) Odbiorca przesyła do nadawcy informacje o pakietach, które do niego **nie** dotarły  
 - [ ] d) Nadawca kontroluje ilość danych, które może nadać  
 
 ## 47. W protokole UDP:
 - [ ] a) Przesyłanie datagramów jest niezawodne  
-- [ ] b) Odbiorca potwierdza otrzymanie datagramów  
+- [x] b) Odbiorca potwierdza otrzymanie datagramów  
 - [ ] c) Nie można fragmentować datagramów  
 - [ ] d) Przesyłanie możliwe tylko w konfiguracji punkt–wielopunkt (multicast)  
+Według GPT 4.1 i Gemini 2.5 wszystkie odpowiedzi sa niepoprawne - najblizej prawdy jest od b.
 
 ## 48. Jaki jest cel uzgadniania trójetapowego (3-way handshake) w TCP?
 - [ ] a) Weryfikowanie adresów IP nadawcy i odbiorcy  
 - [ ] b) Określenie liczby bajtów w każdym segmencie  
-- [ ] c) Synchronizacja numerów sekwencji  
+- [x] c) Synchronizacja numerów sekwencji  
 - [ ] d) Dostosowanie etapów szyfrowania pakietów  
 
 ## 49. Adres `195.225.0.0` jest adresem:
-- [ ] a) Sieci  
+- [x] a) Sieci  
 - [ ] b) Podsieci  
 - [ ] c) Grupy hostów  
 - [ ] d) Pojedynczego urządzenia  
