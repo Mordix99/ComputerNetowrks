@@ -11,9 +11,9 @@
 ## 2. Połączono komputery: Host A - `10.0.0.10/22`, Host B - `10.10.0.0/12`. Które stwierdzenie jest prawdziwe?
 
 - [ ] a) Komputer A poprawnie wyśle pakiet do komputera B  
-- [x] b) Komputer B **nie** wyśle poprawnie pakietu do komputera A  
+- [ ] b) Komputer B **nie** wyśle poprawnie pakietu do komputera A  
 - [x] c) Komputer A **nie** wyśle poprawnie pakietu do komputera B  
-- [ ] d) Komputer B poprawnie wyśle pakiet do komputera A
+- [x] d) Komputer B poprawnie wyśle pakiet do komputera A
 
 <details>
 <summary>💡 <strong>Chat podpowiada</strong></summary>
