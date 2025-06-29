@@ -438,8 +438,8 @@ Według GPT 4.1 i Gemini 2.5 wszystkie odpowiedzi sa niepoprawne - najblizej pra
 - [ ] e) Nie może być wysłany multicastowo  
 
 ## 61. Dla adresu `194.0.10.141` z maską `255.255.255.192` prawdziwe są stwierdzenia:
-- [ ] a) W podsieci jest 62 dostępne adresy użyteczne  
-- [ ] b) Na numer hosta przeznaczone jest 6 bitów  
+- [x] a) W podsieci jest 62 dostępne adresy użyteczne  
+- [x] b) Na numer hosta przeznaczone jest 6 bitów  
 - [ ] c) W podsieci jest 64 dostępne adresy użyteczne  
 - [ ] d) W podsieci jest 30 dostępnych adresów użytecznych  
 - [ ] e) Na numer hosta przeznaczonych jest 3 bity  
