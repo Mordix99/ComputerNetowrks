@@ -204,7 +204,7 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 - [ ] a) TTL zostanie zmniejszone i datagram przesłany dalej  
 - [ ] b) Datagram zostanie odrzucony, a ICMP zgłosi błąd trasy  
 - [ ] c) Datagram zostanie odrzucony bez powiadomienia  
-- [ ] d) Datagram zostanie odrzucony, a ICMP zgłosi przekroczony czas życia  
+- [x] d) Datagram zostanie odrzucony, a ICMP zgłosi przekroczony czas życia  
 
 ## 26. Adres multicast to:
 
