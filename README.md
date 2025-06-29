@@ -400,14 +400,14 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 
 ## 55. Dla adresu `23.194.10.131` z maską `255.255.248.0` adres podsieci to:
 - [ ] a) 23.194.10.0  
-- [ ] b) 23.194.8.0  
+- [x] b) 23.194.8.0  
 - [ ] c) 23.194.248.0  
 - [ ] d) 23.194.0.0  
 
 ## 56. Czy adresy IP `100.22.6.2` oraz `100.32.6.3` należą do tej samej podsieci, jeśli do identyfikacji podsieci przeznaczono 8 bitów?
 - [ ] a) Tak  
 - [ ] b) Nie da się jednoznacznie odpowiedzieć  
-- [ ] c) Nie  
+- [x] c) Nie  
 
 ## 57. Tablica ARP zawiera:
 - [ ] a) Adres IP bramy domyślnej  
