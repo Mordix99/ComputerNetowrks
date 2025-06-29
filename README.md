@@ -135,7 +135,7 @@ Sprawdzone w Cisco Packet Tracer – **brak odpowiedzi** na `ping`, ponieważ ko
 - [ ] a) Na numer podsieci przeznaczone są 4 bity  
 - [ ] b) Adres podsieci to `172.168.10.0`  
 - [ ] c) Można stworzyć 16 podsieci  
-- [ ] d) Maska to `255.255.240.0`  
+- [x] d) Maska to `255.255.240.0`  
 - [ ] e) To adres prywatny  
 
 ## 17. Protokół DHCP pozwala na:
