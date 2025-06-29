@@ -377,7 +377,7 @@ Według GPT 4.1 i Gemini 2.5 wszystkie odpowiedzi sa niepoprawne - najblizej pra
 - [ ] a) 255.255.255.248  
 - [ ] b) 255.255.255.224  
 - [ ] c) 255.255.255.240  
-- [ ] d) 255.255.255.192 
+- [x] d) 255.255.255.192 
 
 ## 52. Adres `192.10.13.42` należy do klasy adresów:
 - [ ] a) A  
@@ -393,7 +393,7 @@ Według GPT 4.1 i Gemini 2.5 wszystkie odpowiedzi sa niepoprawne - najblizej pra
 - [ ] e) TDM (Time Division Multiplexing)  
 
 ## 54. Dla adresu `220.1.1.133` z maską `255.255.255.192`:
-- [ ] a) Adres podsieci to 220.1.1.128  
+- [x] a) Adres podsieci to 220.1.1.128  
 - [ ] b) Adres rozgłoszeniowy to 220.1.255.255  
 - [ ] c) Adres podsieci to 220.1.1.103  
 - [ ] d) Adres rozgłoszeniowy to 220.1.1.255  
@@ -406,9 +406,11 @@ Według GPT 4.1 i Gemini 2.5 wszystkie odpowiedzi sa niepoprawne - najblizej pra
 - [ ] d) 23.194.0.0  
 
 ## 56. Czy adresy IP `100.22.6.2` oraz `100.32.6.3` należą do tej samej podsieci, jeśli do identyfikacji podsieci przeznaczono 8 bitów?
-- [ ] a) Tak  
+- [x] a) Tak  
 - [ ] b) Nie da się jednoznacznie odpowiedzieć  
-- [x] c) Nie  
+- [ ] c) Nie  
+bylo c - powinno byc a 
+jeśli do identyfikacji podsieci przeznaczono 8 bitów (czyli maska 255.0.0.0). Oba adresy mają ten sam pierwszy oktet (100), więc po zastosowaniu maski ich adres sieciowy to 100.0.0.0 w obu przypadkach, co oznacza, że są w tej samej podsieci.
 
 ## 57. Tablica ARP zawiera:
 - [ ] a) Adres IP bramy domyślnej  
@@ -419,7 +421,7 @@ Według GPT 4.1 i Gemini 2.5 wszystkie odpowiedzi sa niepoprawne - najblizej pra
 
 ## 58. Które pole występuje zarówno w nagłówku segmentu UDP, jak i TCP?
 - [ ] a) Numer potwierdzenia  
-- [ ] b) Numer portu  
+- [x] b) Numer portu  
 - [ ] c) Rozmiar okna  
 - [ ] d) Numer kolejny  
 
@@ -428,13 +430,13 @@ Według GPT 4.1 i Gemini 2.5 wszystkie odpowiedzi sa niepoprawne - najblizej pra
 - [ ] b) Do określenia trasy pakietu, IP korzysta z protokołu sterującego ICMP  
 - [ ] c) Żadna z powyższych odpowiedzi nie jest poprawna  
 - [ ] d) W datagramie IP zapisany jest adres routera następnego przejścia  
-- [ ] e) W tablicy routingu zapisana jest trasa, którą ma przebiegać pakiet  
+- [x] e) W tablicy routingu zapisana jest trasa, którą ma przebiegać pakiet  
 
 ## 60. Datagram IP:
 - [ ] a) Wskazuje trasę przesłania go poprzez sieć  
 - [ ] b) Pozwala uzyskać adres innego hosta (np. odbiorcy)  
 - [ ] c) Posiada sumę kontrolną całego pakietu  
-- [ ] d) Ma zmienną długość  
+- [x] d) Ma zmienną długość  
 - [ ] e) Nie może być wysłany multicastowo  
 
 ## 61. Dla adresu `194.0.10.141` z maską `255.255.255.192` prawdziwe są stwierdzenia:
