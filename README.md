@@ -89,7 +89,7 @@ Sprawdzone w Cisco Packet Tracer – **brak odpowiedzi** na `ping`, ponieważ ko
 - [ ] b) Niezawodny  
 - [ ] c) Poprzedzony fazą uzgadniania  
 - [ ] d) Obsługuje split-horizon  
-- [ ] e) Bezpołączeniowy  
+- [x] e) Bezpołączeniowy  
   
   
 
