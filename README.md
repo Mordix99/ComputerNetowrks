@@ -453,7 +453,7 @@ jeśli do identyfikacji podsieci przeznaczono 8 bitów (czyli maska 255.0.0.0). 
 - [x] d) Pakiet zostanie podzielony na fragmenty i wysłany  
 
 ## 63. Który z wymienionych protokołów jest protokołem bezpołączeniowym?
-- [ ] a) UDP  
+- [x] a) UDP  
 - [ ] b) TCP  
 - [ ] c) ARP  
 - [ ] d) IP  
@@ -462,7 +462,7 @@ jeśli do identyfikacji podsieci przeznaczono 8 bitów (czyli maska 255.0.0.0). 
 Host A - `120.0.0.10/22`, Host B - `120.10.0.0/12`. Które stwierdzenie jest prawdziwe?
 - [ ] a) Komputer B NIE wyśle poprawnie pakietu do komputera A  
 - [ ] b) Komputer B poprawnie wyśle pakiet do komputera A  
-- [ ] c) Komputer A NIE wyśle poprawnie pakietu do komputera B  
+- [x] c) Komputer A NIE wyśle poprawnie pakietu do komputera B  
 - [ ] d) Komputer A poprawnie wyśle pakiet do komputera B  
 
 ## 65. Jakie są podstawowe zadania warstwy transportowej w modelu OSI?
@@ -475,7 +475,7 @@ Host A - `120.0.0.10/22`, Host B - `120.10.0.0/12`. Które stwierdzenie jest pra
 - [ ] b) Pakiety wysyłane na taki adres zawsze przekazywane są przez rutery  
 - [ ] c) Adres klasy E  
 - [ ] d) Adres rozgłoszeniowy do wszystkich urządzeń w sieci  
-- [x] e) Adres rozgłoszeniowy do grupy urządzeń  
+- [x] e) Adres rozgłoszeniowy do grupy urządzeń  ⚠️ e) jest intuicyjna, ale błędna z punktu widzenia terminologii sieciowej (nie ma czegoś takiego jak „adres rozgłoszeniowy do grupy urządzeń” — to sprzeczność terminów: rozgłoszeniowy = do wszystkich, a multicast = do grupy)
 
 ## 67. Dla adresu `191.0.10.1` z maską `255.255.255.224` prawdziwe są stwierdzenia:
 - [x] a) Na numer hosta przeznaczone jest 5 bitów  
@@ -489,7 +489,7 @@ Host A - `120.0.0.10/22`, Host B - `120.10.0.0/12`. Które stwierdzenie jest pra
 - [ ] b) Jest protokołem połączeniowym  
 - [ ] c) Zawiera mechanizmy potwierdzania doręczenia pakietów  
 - [ ] d) Jest protokołem niezawodnym  
-- [ ] e) Zabezpiecza przed krążeniem pakietów w sieci  
+- [x] e) Zabezpiecza przed krążeniem pakietów w sieci  
 
 ## 69. Który protokół jest używany do powiadamiania hosta IP o błędach transmisji?
 - [x] a) ICMP  
