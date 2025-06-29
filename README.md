@@ -42,7 +42,7 @@ Sprawdzone w Cisco Packet Tracer – **brak odpowiedzi** na `ping`, ponieważ ko
 
 ## 5. Które działania realizują protokoły routingu?
 
-- [ ] a) Uzyskiwanie informacji o trasach  
+- [x] a) Uzyskiwanie informacji o trasach  
 - [ ] b) Dostarczanie schematu adresacji  
 - [ ] c) Informowanie hostów o nowych bramach  
 
@@ -80,7 +80,7 @@ Sprawdzone w Cisco Packet Tracer – **brak odpowiedzi** na `ping`, ponieważ ko
 ## 9. Mechanizm split horizon a zliczanie do nieskończoności:
 
 - [ ] a) Może wystąpić, ale zmniejsza ruch  
-- [ ] b) Może wystąpić rzadziej  
+- [x] b) Może wystąpić rzadziej  
 - [ ] c) Nie może wystąpić  
 
 ## 10. Cechy protokołu IP:
@@ -106,12 +106,12 @@ Sprawdzone w Cisco Packet Tracer – **brak odpowiedzi** na `ping`, ponieważ ko
 - [ ] a) Identyfikator wersji  
 - [ ] b) Pole TTL  
 - [ ] c) Pole TOS  
-- [ ] d) Flaga MF (More Fragments)  
-- [ ] e) Flaga DF (Don't Fragment)  
+- [x] d) Flaga MF (More Fragments)  
+- [x] e) Flaga DF (Don't Fragment)  
 
 ## 13. Ponowne złożenie pakietu IP, który uległ fragmentacji, odbywa się:
 
-- [ ] a) U hosta-odbiorcy  
+- [x] a) U hosta-odbiorcy  
 - [ ] b) Na ruterze najbliższego przeskoku  
 - [ ] c) Na najbliższym ruterze, który ma wystarczające MTU  
 
@@ -141,15 +141,15 @@ Sprawdzone w Cisco Packet Tracer – **brak odpowiedzi** na `ping`, ponieważ ko
 ## 17. Protokół DHCP pozwala na:
 
 - [ ] a) Uzyskanie nazwy domenowej  
-- [ ] b) Automatyczne uzyskanie adresu IP  
+- [x] b) Automatyczne uzyskanie adresu IP  
 - [ ] c) Uzyskanie adresu IP odbiorcy  
 - [ ] d) Przetłumaczenie domeny na IP  
-- [ ] e) Uzyskanie adresu bramy domyślnej  
+- [x] e) Uzyskanie adresu bramy domyślnej  
 
 ## 18. Zadaniem której warstwy jest routing pakietów?
 
 - [ ] a) Warstwa aplikacji  
-- [ ] b) Warstwa sieciowa  
+- [x] b) Warstwa sieciowa  
 - [ ] c) Warstwa łącza danych  
 - [ ] d) Warstwa transportowa  
 
@@ -175,14 +175,14 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 ## 21. Dla adresu `192.168.10.131` z maską `255.255.255.192`, adres podsieci to:
 
 - [ ] a) 192.168.10.192  
-- [ ] b) 192.168.10.128  
+- [x] b) 192.168.10.128  
 - [ ] c) 192.168.10.0  
 - [ ] d) 192.168.0.0  
 
 ## 22. Protokół ARP służy do wyznaczenia:
 
 - [ ] a) Adresu IP hosta na podstawie jego MAC  
-- [ ] b) Adresu MAC hosta na podstawie jego IP  
+- [x] b) Adresu MAC hosta na podstawie jego IP  
 - [ ] c) Źródłowego IP na podstawie MAC  
 - [ ] d) Numeru portu urządzenia  
 
@@ -196,7 +196,7 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 
 - [ ] a) Przydzielenia adresu Ethernet dla hostów bezdyskowych  
 - [ ] b) Przydzielenia adresu IP dla hostów bezdyskowych  
-- [ ] c) Znalezienia adresu MAC na podstawie IP  
+- [x] c) Znalezienia adresu MAC na podstawie IP  
 - [ ] d) Znalezienia adresu IP na podstawie MAC  
 
 ## 25. Co się stanie, gdy router otrzyma datagram IP z polem TTL = 1?
@@ -209,36 +209,36 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 ## 26. Adres multicast to:
 
 - [ ] a) Pakiety zawsze przekazywane przez routery  
-- [ ] b) Adres rozgłoszeniowy do grupy urządzeń  
+- [x] b) Adres rozgłoszeniowy do grupy urządzeń  
 - [ ] c) Adres klasy E  
-- [ ] d) Adres klasy D  
+- [x] d) Adres klasy D  
 - [ ] e) Adres broadcastowy  
 
 ## 27. Dwie stacje w różnych sieciach połączone przez jeden router:
 
-- [ ] a) Muszą mieć ustawiony adres bramki  
+- [x] a) Muszą mieć ustawiony adres bramki  
 - [ ] b) Muszą mieć taką samą maskę  
 - [ ] c) Router wymaga statycznych tras domyślnych  
 
 ## 28. Adres odbiorcy ramki zawierającej żądanie ARP to:
 
-- [ ] a) MAC broadcastowy  
+- [x] a) MAC broadcastowy  
 - [ ] b) IP bramy domyślnej  
 - [ ] c) MAC bramy domyślnej  
 - [ ] d) IP broadcastowy  
 
 ## 29. Który protokół informuje o błędach transmisji IP?
 
-- [ ] a) IGMP  
+- [?] a) IGMP  
 - [ ] b) SMTP  
-- [ ] c) ICMP  
+- [x] c) ICMP  
 - [ ] d) RARP  
 
 ## 30. Co się stanie, jeśli datagram IP przekracza MTU?
 
 - [ ] a) Zostanie odrzucony z komunikatem ICMP „sieć nieosiągalna”  
 - [ ] b) Zostanie odrzucony bez komunikatu  
-- [ ] c) Zostanie pofragmentowany i przesłany  
+- [x] c) Zostanie pofragmentowany i przesłany  
 - [ ] d) Zostanie odrzucony z komunikatem ICMP „źródło stłumione”  
 
 
@@ -251,14 +251,14 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 
 ## 32. Ponowne złożenie pakietu IP po fragmentacji odbywa się:
 
-- [ ] a) U węzła-odbiorcy  
+- [x] a) U węzła-odbiorcy  
 - [ ] b) Na routerze najbliższego przeskoku  
 - [ ] c) Na najbliższym routerze, który ma wystarczające MTU  
 
 ## 33. W której warstwie modelu OSI działa protokół ICMP?
 
 - [ ] a) Warstwa łącza danych  
-- [ ] b) Warstwa sieci  
+- [x] b) Warstwa sieci  
 - [ ] c) Warstwa sesji  
 - [ ] d) Warstwa transportowa  
 
@@ -288,7 +288,7 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 
 - [ ] a) Szybkość zbieżności  
 - [ ] b) Część adresu hosta  
-- [ ] c) Metryka do sieci docelowej  
+- [x] c) Metryka do sieci docelowej  
 
 ## 38. Adres `112.10.3.4` należy do klasy:
 
@@ -300,9 +300,9 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 ## 39. Tablica ARP zawiera:
 
 - [ ] a) Adres IP bramy domyślnej  
-- [ ] b) MAC hosta obcego  
-- [ ] c) Typ wpisu (statyczny/dynamiczny)  
-- [ ] d) IP hosta obcego  
+- [x] b) MAC hosta obcego  
+- [x] c) Typ wpisu (statyczny/dynamiczny)  
+- [x] d) IP hosta obcego  
 - [ ] e) Numer portu przełącznika, do którego podłączony jest host  
 
 ## 40. Aby hosty `192.172.16.41` i `192.172.16.27` były w tej samej podsieci, maska powinna wynosić:
@@ -316,17 +316,17 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 - [ ] a) Klasą urządzeń, do której można zaliczyć switch  
 - [ ] b) Rodzaj kabla do przyłączenia konsol  
 - [ ] c) Rodzaj kabli wykorzystywanych w sieciach Ethernet  
-- [ ] d) Klasą urządzeń, do której można zaliczyć router  
+- [x] d) Klasą urządzeń, do której można zaliczyć router  
 
 ## 42. Zadaniem warstwy 1 modelu OSI/ISO jest:
 - [ ] a) Adresacja fizyczna  
 - [ ] b) Ramkowanie  
 - [ ] c) Kompresja danych  
-- [ ] d) Kodowanie strumienia danych do postaci odpowiedniej dla medium  
+- [x] d) Kodowanie strumienia danych do postaci odpowiedniej dla medium  
 - [ ] e) Zapewnienie dostępu do medium  
 
 ## 43. Poprawnym adresem grupowym (multicastowym) Ethernet jest:
-- [ ] a) 01:00:5e:30:a3:d0  
+- [x] a) 01:00:5e:30:a3:d0  
 - [ ] b) f0:aa:0d:23:10:01  
 - [ ] c) 0b:0b:09:01:03:02  
 - [ ] d) 02:00:5e:92:ff:c1  
@@ -341,7 +341,7 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 ## 45. Dwie stacje w różnych sieciach połączone przez jeden router:
 - [ ] a) Na routerze konieczne jest dodanie pozycji routingu statycznego lub działanie protokołu routowania  
 - [ ] b) Obydwie stacje muszą posiadać jednakową maskę  
-- [ ] c) Każda stacja musi mieć ustawiony adres IP bramy  
+- [x] c) Każda stacja musi mieć ustawiony adres IP bramy  
 
 ## 46. Kontrola przepływu w TCP polega m.in. na tym, że:
 - [ ] a) Odbiorca przesyła do nadawcy informacje o pakietach, które do niego dotarły  
@@ -369,7 +369,7 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 
 ## 50. Mechanizm split horizon a zliczanie do nieskończoności:
 - [ ] a) Może nadal wystąpić, jego zastosowanie zmniejsza tylko ruch w sieci  
-- [ ] b) Może nadal wystąpić, ale rzadziej  
+- [x] b) Może nadal wystąpić, ale rzadziej  
 - [ ] c) Nie może wystąpić  
 
 ## 51. Aby hosty `197.11.199.41` i `197.11.199.27` były w tej samej podsieci, maska powinna wynosić:
@@ -381,12 +381,12 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 ## 52. Adres `192.10.13.42` należy do klasy adresów:
 - [ ] a) A  
 - [ ] b) B  
-- [ ] c) C  
+- [x] c) C  
 - [ ] d) D  
 
 ## 53. Jakie mechanizmy umożliwiają komunikację pomiędzy przełącznicami (z włączonymi sieciami VLAN)?
 - [ ] a) Synchronizacja ramek  
-- [ ] b) Tagowanie ramek  
+- [x] b) Tagowanie ramek  
 - [ ] c) FCS  
 - [ ] d) Fragmentacja ramek  
 - [ ] e) TDM (Time Division Multiplexing)  
@@ -412,9 +412,9 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 ## 57. Tablica ARP zawiera:
 - [ ] a) Adres IP bramy domyślnej  
 - [ ] b) Adres IP hosta źródłowego  
-- [ ] c) Typ wpisu (statyczny/dynamiczny)  
+- [x] c) Typ wpisu (statyczny/dynamiczny)  
 - [ ] d) Numer portu, na którym jest podłączony obcy host  
-- [ ] e) Adres MAC hosta obcego  
+- [x] e) Adres MAC hosta obcego  
 
 ## 58. Które pole występuje zarówno w nagłówku segmentu UDP, jak i TCP?
 - [ ] a) Numer potwierdzenia  
@@ -463,16 +463,16 @@ Host A - `120.0.0.10/22`, Host B - `120.10.0.0/12`. Które stwierdzenie jest pra
 - [ ] d) Komputer A poprawnie wyśle pakiet do komputera B  
 
 ## 65. Jakie są podstawowe zadania warstwy transportowej w modelu OSI?
-- [ ] a) Połączenia typu end-to-end  
+- [x] a) Połączenia typu end-to-end  
 - [ ] b) Szyfrowanie danych  
 - [ ] c) Wybór ścieżki  
 
 ## 66. Adres IP multicast to:
-- [ ] a) Adres klasy D  
+- [x] a) Adres klasy D  
 - [ ] b) Pakiety wysyłane na taki adres zawsze przekazywane są przez rutery  
 - [ ] c) Adres klasy E  
 - [ ] d) Adres rozgłoszeniowy do wszystkich urządzeń w sieci  
-- [ ] e) Adres rozgłoszeniowy do grupy urządzeń  
+- [x] e) Adres rozgłoszeniowy do grupy urządzeń  
 
 ## 67. Dla adresu `191.0.10.1` z maską `255.255.255.224` prawdziwe są stwierdzenia:
 - [ ] a) Na numer hosta przeznaczone jest 5 bitów  
@@ -489,14 +489,14 @@ Host A - `120.0.0.10/22`, Host B - `120.10.0.0/12`. Które stwierdzenie jest pra
 - [ ] e) Zabezpiecza przed krążeniem pakietów w sieci  
 
 ## 69. Który protokół jest używany do powiadamiania hosta IP o błędach transmisji?
-- [ ] a) ICMP  
+- [x] a) ICMP  
 - [ ] b) RARP  
 - [ ] c) SMTP  
-- [ ] d) IGMP  
+- [?] d) IGMP  
 
 ## 70. Jakie mechanizmy zapobiegają wyczerpaniu przestrzeni adresowej IPv4?
 - [ ] a) Routing bezklasowy  
 - [ ] b) DHCP  
 - [ ] c) ARP  
-- [ ] d) NAT  
+- [x] d) NAT  
 
