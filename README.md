@@ -476,8 +476,8 @@ Host A - `120.0.0.10/22`, Host B - `120.10.0.0/12`. Które stwierdzenie jest pra
 - [x] e) Adres rozgłoszeniowy do grupy urządzeń  
 
 ## 67. Dla adresu `191.0.10.1` z maską `255.255.255.224` prawdziwe są stwierdzenia:
-- [ ] a) Na numer hosta przeznaczone jest 5 bitów  
-- [ ] b) W podsieci jest 30 dostępnych adresów użytecznych  
+- [x] a) Na numer hosta przeznaczone jest 5 bitów  
+- [x] b) W podsieci jest 30 dostępnych adresów użytecznych  
 - [ ] c) Na numer hosta przeznaczonych jest 3 bity  
 - [ ] d) W podsieci jest 32 dostępne adresy użyteczne  
 - [ ] e) W podsieci jest 62 dostępne adresy użyteczne  
