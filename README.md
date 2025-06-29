@@ -31,7 +31,7 @@ Sprawdzone w Cisco Packet Tracer – **brak odpowiedzi** na `ping`, ponieważ ko
 - [ ] b) IP korzysta z protokołu ICMP do określania trasy  
 - [ ] c) Wszystkie odpowiedzi są poprawne  
 - [ ] d) W datagramie IP zapisany jest adres routera następnego przeskoku  
-- [ ] e) W tablicy routingu zapisana jest trasa  
+- [x] e) W tablicy routingu zapisana jest trasa  
 
 ## 4. Adresami prywatnymi są:
 
@@ -49,9 +49,9 @@ Sprawdzone w Cisco Packet Tracer – **brak odpowiedzi** na `ping`, ponieważ ko
 ## 6. Dwa komputery A i B połączone przez router. Tablice ARP są puste. Co jest prawdą?
 
 - [ ] a) Na routerze niepotrzebne są wpisy ARP  
-- [ ] b) Router potrzebuje MAC obu komputerów  
+- [x] b) Router potrzebuje MAC obu komputerów  
 - [ ] c) Wysłanie pakietu możliwe po ustaleniu MAC przez każde urządzenie  
-- [ ] d) Komputer A nie potrzebuje MAC_B  
+- [x] d) Komputer A nie potrzebuje MAC_B  
 - [ ] e) Router wysyła zapytanie ARP w imieniu komputera A  
 
 ## 7. Pierwszy komunikat DHCP po podłączeniu hosta:
@@ -95,7 +95,7 @@ Sprawdzone w Cisco Packet Tracer – **brak odpowiedzi** na `ping`, ponieważ ko
 
 ## 11. Datagram IP:
 
-- [ ] a) Ma zmienną długość  
+- [x] a) Ma zmienną długość  
 - [ ] b) Pozwala uzyskać adres innego hosta  
 - [ ] c) Wskazuje trasę przesyłania w sieci  
 - [ ] d) Posiada sumę kontrolną całego pakietu  
@@ -117,15 +117,15 @@ Sprawdzone w Cisco Packet Tracer – **brak odpowiedzi** na `ping`, ponieważ ko
 
 ## 14. Dwa komputery A i B oraz ruter R są w jednej sieci. Co pojawi się w tablicach ARP?
 
-- [ ] a) W komputerze A: IP_B – MAC_B  
+- [x] a) W komputerze A: IP_B – MAC_B  
 - [ ] b) W ruterze R nie pojawi się żaden nowy wpis  
-- [ ] c) W komputerze B: IP_A – MAC_A  
+- [x] c) W komputerze B: IP_A – MAC_A  
 - [ ] d) W ruterze R: IP_B – MAC_B oraz IP_A – MAC_A  
 - [ ] e) W komputerze A: IP_R – MAC_R  
 
 ## 15. Najczęstsza przyczyna powstawania pętli routingu:
 
-- [ ] a) Niespójne informacje w tablicach routingu  
+- [x] a) Niespójne informacje w tablicach routingu  
 - [ ] b) Liczba przeskoków przekracza wartość maksymalną  
 - [ ] c) Liczenie do nieskończoności  
 - [ ] d) Split horizon  
@@ -190,7 +190,7 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 
 - [ ] a) Odległość do sieci docelowej  
 - [ ] b) Odległość z sieci źródłowej do docelowej  
-- [ ] c) Liczbę przeskoków z sieci źródłowej do docelowej  
+- [x] c) Liczbę przeskoków z sieci źródłowej do docelowej  
 
 ## 24. Protokół ARP służy do:
 
@@ -222,14 +222,14 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 
 ## 28. Adres odbiorcy ramki zawierającej żądanie ARP to:
 
-- [x] a) MAC broadcastowy  
+- [ ] a) MAC broadcastowy  
 - [ ] b) IP bramy domyślnej  
 - [ ] c) MAC bramy domyślnej  
 - [ ] d) IP broadcastowy  
 
 ## 29. Który protokół informuje o błędach transmisji IP?
 
-- [?] a) IGMP  
+- [ ] a) IGMP  
 - [ ] b) SMTP  
 - [x] c) ICMP  
 - [ ] d) RARP  
@@ -246,7 +246,7 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 ## 31. Suma kontrolna w nagłówku pakietu IP dotyczy:
 
 - [ ] a) Całego pakietu (nagłówek + dane)  
-- [ ] b) Tylko nagłówka  
+- [x] b) Tylko nagłówka  
 - [ ] c) Tylko danych  
 
 ## 32. Ponowne złożenie pakietu IP po fragmentacji odbywa się:
@@ -265,7 +265,7 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 ## 34. Co opisuje routing dynamiczny?
 
 - [ ] a) Administratorzy ręcznie wprowadzają trasy  
-- [ ] b) Tablice routingu są aktualizowane automatycznie na podstawie informacji od innych routerów  
+- [x] b) Tablice routingu są aktualizowane automatycznie na podstawie informacji od innych routerów  
 - [ ] c) Za zbieranie i przesyłanie informacji odpowiada serwer tras  
 - [ ] d) Kierunki i odległości się nie zmieniają  
 
@@ -274,15 +274,15 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 - [ ] a) Powoduje nieskończoną wędrówkę pakietów  
 - [ ] b) Pozwala na budowę sieci do 16 routerów  
 - [ ] c) Pozwala na sieć o nieograniczonym rozmiarze  
-- [ ] d) Powoduje, że pakiety krążą 16 razy „w koło”  
+- [x] d) Powoduje, że pakiety krążą 16 razy „w koło”  
 
 ## 36. Dla adresu `200.0.10.141` z maską `255.255.255.192`, prawdziwe są:
 
-- [ ] a) Na numer hosta przeznaczone jest 6 bitów  
+- [x] a) Na numer hosta przeznaczone jest 6 bitów  
 - [ ] b) Na numer hosta przeznaczone są 3 bity  
 - [ ] c) W podsieci jest 30 adresów użytecznych  
 - [ ] d) W podsieci jest 64 adresy użyteczne  
-- [ ] e) W podsieci jest 62 adresy użyteczne  
+- [x] e) W podsieci jest 62 adresy użyteczne  
 
 ## 37. Jakie informacje wykorzystuje router z RIP do wyznaczenia najlepszej ścieżki?
 
@@ -310,7 +310,7 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 - [ ] a) 255.255.255.240  
 - [ ] b) 255.255.255.224  
 - [ ] c) 255.255.255.248  
-- [ ] d) 255.255.255.192  
+- [x] d) 255.255.255.192  
 
 ## 41. Co oznacza skrót DTE?
 - [ ] a) Klasą urządzeń, do której można zaliczyć switch  
