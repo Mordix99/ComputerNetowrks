@@ -447,7 +447,7 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 - [ ] a) Pakiet zostanie odrzucony "po cichu"  
 - [ ] b) Pakiet zostanie odrzucony i wygenerowany zostanie komunikat ICMP sieć nieosiągalna  
 - [ ] c) Pakiet zostanie odrzucony i wygenerowany zostanie komunikat ICMP stłumienie źródła  
-- [ ] d) Pakiet zostanie podzielony na fragmenty i wysłany  
+- [x] d) Pakiet zostanie podzielony na fragmenty i wysłany  
 
 ## 63. Który z wymienionych protokołów jest protokołem bezpołączeniowym?
 - [ ] a) UDP  
