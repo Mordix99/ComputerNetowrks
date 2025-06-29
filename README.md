@@ -225,7 +225,7 @@ Adresy różnią się na trzecim oktetie (5 vs 6), ale mają takie same dwa pier
 - [ ] a) MAC broadcastowy  
 - [ ] b) IP bramy domyślnej  
 - [ ] c) MAC bramy domyślnej  
-- [ ] d) IP broadcastowy  
+- [x] d) IP broadcastowy  
 
 ## 29. Który protokół informuje o błędach transmisji IP?
 
